@@ -2,3 +2,9 @@
 @import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
 
 @import "general/general";
+@import "general/media_querries";
+
+@import "elements/navbar";
+@import "elements/side_indicator";
+@import "elements/content";
+@import "elements/glide";

@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/main.css" />
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"
@@ -17,9 +16,192 @@
       nomodule=""
       src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"
     ></script>
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Star Wars Travel</title>
   </head>
   <body>
+    <section>
+      <nav>
+        <h5>StarTravel.</h5>
+        <ul>
+          <li>Home</li>
+          <li>Collections</li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </ul>
+        <div class="search"><ion-icon name="search"></ion-icon></div>
+      </nav>
+      <div class="side-indicator">
+        <div class="line"></div>
+        <div class="index one">
+          <p>1</p>
+        </div>
+        <div class="index two">
+          <p>2</p>
+        </div>
+        <div class="index three">
+          <p>3</p>
+        </div>
+        <div class="index four">
+          <p>4</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="text-wrapper">
+          <div class="text">
+            <div id="title">
+              <h4>BESPIN</h4>
+              <h4>NABOO</h4>
+              <h4>CORUSCANT</h4>
+              <h4>TATOOINE</h4>
+            </div>
+            <div id="description">
+              <p>
+                Cloud City was a completely man-made Tibanna gas mining colony
+                staff hovering over the gas giant Bespin, occupied by millions
+                of workers, tourists and support staff. Located in Bespin's Life
+                Zone, the station had no need for airlocks or life support
+                systems, with the atmosphere comprised mostly of oxygen and
+                acceptable levels of gravity and temperature. The station was
+                situated 59,000 kilometers above Bespin's core, while its disk
+                was approximately 16.2 kilometers in diameter. 36,000
+                repulsorlift engines and tractor beam generators kept the giant
+                city floating above the planet.
+              </p>
+              <p>
+                Endor, designated IX3244-A, also known as the Forest Moon of
+                Endor or the Sanctuary Moon, was a small forested moon that
+                orbited the Outer Rim planet of the same name and was the
+                homeworld of the sentient Dulok, Ewok, and Yuzzum species, as
+                well as the semi-sentient Gorax and Wistie races. The moon was
+                covered in dense woodlands, tall mountains, and savannas, and
+                home to the sentient Ewok, Dulok, and Yuzzum species. It
+                contained a breathable atmosphere to humans and 8% surface
+                water. It also had two suns: Endor I and Endor II. Some of
+                Endor's trees reached more than 1,000 meters in height.
+              </p>
+              <p>
+                A city-covered planet, Coruscant is the vibrant heart and
+                capital of the galaxy, featuring a diverse mix of citizens and
+                culture. It features towering skyscrapers, streams of
+                speeder-filled air traffic, and inner levels that stretch far
+                below the world’s surface. Coruscant was the seat of government
+                for the Galactic Republic and the Empire that followed, and was
+                the site of numerous historic events during the Clone Wars. It
+                also housed the Jedi Temple and Archives, which hosted Jedi
+                training and learning for over a thousand generations --
+                traditions that ended when the planet bore witness to Order 66.
+              </p>
+              <p>
+                Located in the galaxy's desolate Outer Rim, Tatooine orbits a
+                pair of binary G-type stars, Tatoo I and Tatoo II. The planet's
+                indigenous lifeforms such as the womp rat, bantha, Sarlacc, and
+                Krayt dragon are well-adapted to its arid climate. Though its
+                proximity to the suns makes life difficult, it is located near
+                key hyperspace routes, making it a smuggler and gangster haven;
+                debris from shipwrecks also provides resources for scavengers.
+                Annual sandstorms wipe out landmarks and make nomadic life
+                dangerous, with the planet's populations clustered into distinct
+                settlements.
+              </p>
+            </div>
+            <div class="btn">
+              <p>Explore</p>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <div class="glide">
+          <div class="glide-cover"></div>
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="slide one">
+                  <p>Cloud City, Bespin</p>
+                  <div class="rating">
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle"></div>
+                  </div>
+                  <div class="slider-image">
+                    <img src="./images/Bespin_desc.jpg" alt="" />
+                    <div class="bookamrk">
+                      <ion-icon name="bookmarks-outline"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="slide two">
+                  <p>Theed, Naboo</p>
+                  <div class="rating">
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                  </div>
+                  <div class="slider-image">
+                    <img src="./images/Naboo_desc.jpg" alt="" />
+                    <div class="bookamrk">
+                      <ion-icon name="bookmarks-outline"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="slide three">
+                  <p>Galactic City, Coruscant</p>
+                  <div class="rating">
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                  </div>
+                  <div class="slider-image">
+                    <img src="./images/Coruscant_desc.jpg" alt="" />
+                    <div class="bookamrk">
+                      <ion-icon name="bookmarks-outline"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="slide four">
+                  <p>Lars homestead, Tatooine</p>
+                  <div class="rating">
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                  </div>
+                  <div class="slider-image">
+                    <img src="./images/Tatooine_desc.jpg" alt="" />
+                    <div class="bookamrk">
+                      <ion-icon name="bookmarks-outline"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div data-glide-el="controls" class="controls">
+            <div data-glide-dir="<" id="prev">
+              <ion-icon name="arrow-back-outline"></ion-icon>
+            </div>
+            <div data-glide-dir=">" id="next">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="background"></div>
+    </section>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
