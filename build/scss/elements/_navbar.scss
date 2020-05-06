@@ -4,10 +4,12 @@ nav {
   color: #fff;
   justify-content: space-between;
   align-items: center;
+  transition: color 0.5s;
 
   h5 {
     font-size: 24px;
     cursor: pointer;
+    color: inherit;
   }
 
   ul li {
@@ -15,6 +17,7 @@ nav {
     margin: 0 40px;
     font-size: 12px;
     cursor: pointer;
+    color: inherit;
   }
 
   .search {
@@ -22,6 +25,7 @@ nav {
     width: 30px;
     border-radius: 50%;
     background-color: #fff;
+    transition: color 0.5s, background-color 0.5s;
     @include flex-center;
 
     ion-icon {
