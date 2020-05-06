@@ -1,5 +1,6 @@
 # Star-Wars-Travel
 Landing page ze sliderem
+(wersja mobilna wkrótce)
 
 [Podgląd projektu](https://mieczyslawmilej.github.io/Star-Wars-Travel/build/)
 
